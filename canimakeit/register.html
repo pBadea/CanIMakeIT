@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CanIMakeIT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="loginAndRegister.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/canimakeit/index.html">Home</a></li>
+            <li><a href="/canimakeit/articles.html">Articles</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <form method="post" action="register.php">
+        <form method="post" action="">
+            <div class="message">
+                <!-- <?php 
+              foreach ($errors as $error)
+                echo $error , "<br>"
+            ?> -->
+            </div>
+            <table class="Table">
+                <tr class="tableheader">
+                    <td>
+                        <p>Register now here</p>
+                    </td>
+                </tr>
+                <tr class="tablerow">
+                    <td>
+                        <input class="text-input" placeholder="Username" type="text" name="username">
+                        <!-- value="<?php echo $username; ?>"> -->
+                    </td>
+                </tr>
+                <tr class="tablerow">
+                    <td>
+                        <input class="text-input" placeholder="Email" type="email" name="email">
+                            <!-- value="<?php echo $email; ?>"> -->
+                    </td>
+                </tr>
+                <tr class="tablerow">
+                    <td>
+                        <input class="text-input" placeholder="Password" type="password" name="password_1">
+                    </td>
+                </tr>
+                <tr class="tablerow">
+                    <td>
+                        <input class="text-input" placeholder="Confirm password" type="password" name="password_2">
+                    </td>
+                </tr>
+                <tr class="tablerow">
+                    <td>
+                        <button class="btnSubmit" type="submit" class="btn" name="reg_user">Register</button>
+                    </td>
+                </tr>
+                <tr class="tablerow">
+                    <td>
+                        <p>Already a member? <a href="/canimakeit/login.html">Sign in</a></p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </form>
+
+</body>
+
+</html>

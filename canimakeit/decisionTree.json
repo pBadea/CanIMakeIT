@@ -1,0 +1,543 @@
+{
+    "question": "Why do you want to learn to code?",
+    "sublevel": [
+        {
+            "selectionId": "1",
+            "selectionContent": "Become a professional developer",
+            "question": "What type of Developer do you want to become?",
+            "sublevel": [
+                {
+                    "selectionId": "11",
+                    "selectionContent": "Games",
+                    "question": "What do you wish to develop?",
+                    "sublevel": [
+                        {
+                            "selectionId": "111",
+                            "selectionContent": "Mobile Games",
+                            "question": "What kind of mobile games?",
+                            "sublevel": [
+                                {
+                                    "selectionId": "1111",
+                                    "selectionContent": "2D",
+                                    "question": "What do you care more about?",
+                                    "sublevel": [
+                                        {
+                                            "selectionId": "11111",
+                                            "selectionContent": "Community Size/Support",
+                                            "recommendedProgrammingLanguage": "C#"
+                                        },
+                                        {
+                                            "selectionId": "11112",
+                                            "selectionContent": "Performance",
+                                            "recommendedProgrammingLanguage": "C++"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "selectionId": "1112",
+                                    "selectionContent": "3D",
+                                    "question": "What do you care more about?",
+                                    "sublevel": [
+                                        {
+                                            "selectionId": "11121",
+                                            "selectionContent": "Ease of learning",
+                                            "recommendedProgrammingLanguage": "C#"
+                                        },
+                                        {
+                                            "selectionId": "11122",
+                                            "selectionContent": "Stunning graphincs",
+                                            "recommendedProgrammingLanguage": "C++"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "selectionId": "112",
+                            "selectionContent": "PC/Console games",
+                            "question": "What kind of games?",
+                            "sublevel": [
+                                {
+                                    "selectionId": "1121",
+                                    "selectionContent": "Indie games",
+                                    "recommendedProgrammingLanguage": "C#"
+                                },
+                                {
+                                    "selectionId": "1122",
+                                    "selectionContent": "AAA title games",
+                                    "recommendedProgrammingLanguage": "C++"
+                                },
+                                {
+                                    "selectionId": "1123",
+                                    "selectionContent": "I just want to make games",
+                                    "question": "What do you care more about?",
+                                    "sublevel": [
+                                        {
+                                            "selectionId": "11231",
+                                            "selectionContent": "Ease of learning",
+                                            "recommendedProgrammingLanguage": "C#"
+                                        },
+                                        {
+                                            "selectionId": "11232",
+                                            "selectionContent": "Stunning graphincs",
+                                            "recommendedProgrammingLanguage": "C++"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "12",
+                    "selectionContent": "Web",
+                    "question": "What seems to interest you more?",
+                    "sublevel": [
+                        {
+                            "selectionId": "121",
+                            "selectionContent": "UX:how to interact with things",
+                            "recommendedProgrammingLanguage": "1.HTML5 2.JavaScript"
+                        },
+                        {
+                            "selectionId": "122",
+                            "selectionContent": "Logic:how things work",
+                            "question": "What kind of companies do you wish to work for?",
+                            "sublevel": [
+                                {
+                                    "selectionId": "1221",
+                                    "selectionContent": "Small business/Freelance",
+                                    "recommendedProgrammingLanguage": "PHP"
+                                },
+                                {
+                                    "selectionId": "1222",
+                                    "selectionContent": "Startups",
+                                    "question": "Which of the following programming language do you prefer?",
+                                    "chooseYourLanguage": [
+                                        "Python",
+                                        "Ruby",
+                                        "JavaScript"
+                                    ]
+                                },
+                                {
+                                    "selectionId": "1223",
+                                    "selectionContent": "Traditional enterprises",
+                                    "question": "What do you care more about?",
+                                    "sublevel": [
+                                        {
+                                            "selectionId": 12231,
+                                            "selectionContent": "Job opportunities",
+                                            "recommendedProgrammingLanguage": "Java"
+                                        },
+                                        {
+                                            "selectionId": 12232,
+                                            "selectionContent": "Liking the language",
+                                            "chooseYourLanguage": [
+                                                "Java",
+                                                "C#"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "selectionId": "1224",
+                                    "selectionContent": "No preference",
+                                    "chooseYourLanguage": [
+                                        "Python",
+                                        "Ruby",
+                                        "JavaScript"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "13",
+                    "selectionContent": "Mobile",
+                    "question": "What platform do you wish to work on?",
+                    "sublevel": [
+                        {
+                            "selectionId": "131",
+                            "selectionContent": "iOS",
+                            "recommendedProgrammingLanguage": "Swift"
+                        },
+                        {
+                            "selectionId": "132",
+                            "selectionContent": "Android",
+                            "recommendedProgrammingLanguage": "Java"
+                        },
+                        {
+                            "selectionId": "133",
+                            "selectionContent": "Windows",
+                            "recommendedProgrammingLanguage": "C#"
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "14",
+                    "selectionContent": "Dekstop",
+                    "question": "What platform?",
+                    "sublevel": [
+                        {
+                            "selectionId": "141",
+                            "selectionContent": "Windows",
+                            "recommendedProgrammingLanguage": "C#"
+                        },
+                        {
+                            "selectionId": "142",
+                            "selectionContent": "Mac",
+                            "recommendedProgrammingLanguage": "Swift"
+                        },
+                        {
+                            "selectionId": "143",
+                            "selectionContent": "Cross-Platform",
+                            "recommendedProgrammingLanguage": "Java"
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "15",
+                    "selectionContent": "Data Science",
+                    "question": "What sounds more appealing to you?",
+                    "sublevel": [
+                        {
+                            "selectionId": "151",
+                            "selectionContent": "Statistical tasks",
+                            "recommendedProgrammingLanguage": "R"
+                        },
+                        {
+                            "selectionId": "152",
+                            "selectionContent": "Ease of learning",
+                            "recommendedProgrammingLanguage": "Python"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "selectionId": "2",
+            "selectionContent": "Build your own startup",
+            "question": "What will your main focus be?",
+            "sublevel": [
+                {
+                    "selectionId": "21",
+                    "selectionContent": "Web Apps",
+                    "question": "What is your main product?",
+                    "sublevel": [
+                        {
+                            "selectionId": "211",
+                            "selectionContent": "eCommerce",
+                            "recommendedProgrammingLanguage": "PHP"
+                        },
+                        {
+                            "selectionId": "212",
+                            "selectionContent": "Platform as a Service",
+                            "recommendedProgrammingLanguage": "Java"
+                        },
+                        {
+                            "selectionId": "213",
+                            "selectionContent": "Other web product",
+                            "question": "What do you find mroe important?",
+                            "sublevel": [
+                                {
+                                    "selectionId": 2131,
+                                    "selectionContent": "Performance",
+                                    "recommendedProgrammingLanguage": "JavaScript"
+                                },
+                                {
+                                    "selectionId": 2132,
+                                    "selectionContent": "Prototyping quickly",
+                                    "recommendedProgrammingLanguage": "Ruby"
+                                },
+                                {
+                                    "selectionId": 2133,
+                                    "selectionContent": "Analyzing data",
+                                    "recommendedProgrammingLanguage": "Python"
+                                },
+                                {
+                                    "selectionId": 2134,
+                                    "selectionContent": "Affordable salary",
+                                    "recommendedProgrammingLanguage": "PHP"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "22",
+                    "selectionContent": "Mobile Apps",
+                    "question": "What Platform?",
+                    "sublevel": [
+                        {
+                            "selectionId": "221",
+                            "selectionContent": "iOS",
+                            "recommendedProgrammingLanguage": "Swift"
+                        },
+                        {
+                            "selectionId": "222",
+                            "selectionContent": "Android",
+                            "recommendedProgrammingLanguage": "Java"
+                        },
+                        {
+                            "selectionId": "223",
+                            "selectionContent": "Windows",
+                            "recommendedProgrammingLanguage": "C#"
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "23",
+                    "selectionContent": "Video Games",
+                    "question": "What platform do you wish this game to be on?",
+                    "sublevel": [
+                        {
+                            "selectionId": "231",
+                            "selectionContent": "Virtual Reality",
+                            "recommendedProgrammingLanguage": "C#"
+                        },
+                        {
+                            "selectionId": "232",
+                            "selectionContent": "Mobile Game",
+                            "question": "What kind of mobile games?",
+                            "sublevel": [
+                                {
+                                    "selectionId": "2321",
+                                    "selectionContent": "2D",
+                                    "recommendedProgrammingLanguage": "C++"
+                                },
+                                {
+                                    "selectionId": "2322",
+                                    "selectionContent": "3D",
+                                    "recommendedProgrammingLanguage": "C#"
+                                }
+                            ]
+                        },
+                        {
+                            "selectionId": "233",
+                            "selectionContent": "Web game",
+                            "recommendedProgrammingLanguage": "HTML5"
+                        },
+                        {
+                            "selectionId": "234",
+                            "selectionContent": "PC games",
+                            "question": "What is more important to you?",
+                            "sublevel": [
+                                {
+                                    "selectionId": "2341",
+                                    "selectionContent": "Graphics/Performance",
+                                    "recommendedProgrammingLanguage": "C++"
+                                },
+                                {
+                                    "selectionId": "2342",
+                                    "selectionContent": "Getting a game out",
+                                    "recommendedProgrammingLanguage": "C#"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "selectionId": "3",
+            "selectionContent": "Create something fun",
+            "question": "What kind of an App do you want to create?",
+            "sublevel": [
+                {
+                    "selectionId": "31",
+                    "selectionContent": "Mobile",
+                    "question": "What platform?",
+                    "sublevel": [
+                        {
+                            "selectionId": "311",
+                            "selectionContent": "iOS",
+                            "recommendedProgrammingLanguage": "Swift"
+                        },
+                        {
+                            "selectionId": "312",
+                            "selectionContent": "Android",
+                            "recommendedProgrammingLanguage": "Java"
+                        },
+                        {
+                            "selectionId": "313",
+                            "selectionContent": "Windows",
+                            "recommendedProgrammingLanguage": "C#"
+                        },
+                        {
+                            "selectionId": "314",
+                            "selectionContent": "All",
+                            "recommendedProgrammingLanguage": "HTML5"
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "32",
+                    "selectionContent": "Web",
+                    "question": "What seems more interesting?",
+                    "sublevel": [
+                        {
+                            "selectionId": "321",
+                            "selectionContent": "Design:how things look",
+                            "recommendedProgrammingLanguage": "HTML5"
+                        },
+                        {
+                            "selectionId": "322",
+                            "selectionContent": "UX:how to interact with things",
+                            "recommendedProgrammingLanguage": "1.HTML5 2.JavaScript"
+                        },
+                        {
+                            "selectionId": "323",
+                            "selectionContent": "Logic:how things work",
+                            "question": "What programming language do you prefer?",
+                            "chooseYourLanguage": [
+                                "Python",
+                                "Ruby",
+                                "PHP"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "33",
+                    "selectionContent": "Small games",
+                    "question": "What platform?",
+                    "sublevel": [
+                        {
+                            "selectionId": "331",
+                            "selectionContent": "Mobile",
+                            "recommendedProgrammingLanguage": "HTML5"
+                        },
+                        {
+                            "selectionId": "332",
+                            "selectionContent": "Desktop",
+                            "question": "Which programming language do you wish to use?",
+                            "chooseYourLanguage": [
+                                "Python",
+                                "C#"
+                            ]
+                        },
+                        {
+                            "selectionId": "333",
+                            "selectionContent": "Browser(desktop)",
+                            "recommendedProgrammingLanguage": "HTML5"
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "34",
+                    "selectionContent": "Automate tasks",
+                    "question": "",
+                    "sublevel": [
+                        {
+                            "selectionId": "341",
+                            "selectionContent": "Google drive service",
+                            "recommendedProgrammingLanguage": "JavaScript"
+                        },
+                        {
+                            "selectionId": "342",
+                            "selectionContent": "General task automation",
+                            "question": "Which programming language do you prefer?",
+                            "chooseYourLanguage": [
+                                "Python",
+                                "Ruby"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "35",
+                    "selectionContent": "Simple AI appliances",
+                    "recommendedProgrammingLanguage": "Python"
+                }
+            ]
+        },
+        {
+            "selectionId": "4",
+            "selectionContent": "Learn a new skill",
+            "question": "What kind of Skill do you want to learn?",
+            "sublevel": [
+                {
+                    "selectionId": "41",
+                    "selectionContent": "Mobile development",
+                    "question": "What platform do you wish to work on?",
+                    "sublevel": [
+                        {
+                            "selectionId": "411",
+                            "selectionContent": "iOS",
+                            "recommendedProgrammingLanguage": "Swift"
+                        },
+                        {
+                            "selectionId": "412",
+                            "selectionContent": "Android",
+                            "recommendedProgrammingLanguage": "Java"
+                        },
+                        {
+                            "selectionId": "413",
+                            "selectionContent": "Windows",
+                            "recommendedProgrammingLanguage": "C#"
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "42",
+                    "selectionContent": "Website development",
+                    "sublevel": [
+                        {
+                            "selectionId": "421",
+                            "selectionContent": "Designer/Marketing",
+                            "recommendedProgrammingLanguage": "HTML5"
+                        },
+                        {
+                            "selectionId": "422",
+                            "selectionContent": "Project manager",
+                            "question": "What kind of company?",
+                            "sublevel": [
+                                {
+                                    "selectionId": "4221",
+                                    "selectionContent": "Small business",
+                                    "recommendedProgrammingLanguage": "PHP"
+                                },
+                                {
+                                    "selectionId": "4222",
+                                    "selectionContent": "Startups",
+                                    "chooseYourLanguage": [
+                                        "Python",
+                                        "Ruby",
+                                        "JavaScript"
+                                    ]
+                                },
+                                {
+                                    "selectionId": "4223",
+                                    "selectionContent": "Enterprises",
+                                    "recommendedProgrammingLanguage": "Java"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "43",
+                    "selectionContent": "Data analysis",
+                    "question": "",
+                    "sublevel": [
+                        {
+                            "selectionId": "431",
+                            "selectionContent": "Statistical tasks",
+                            "recommendedProgrammingLanguage": "R"
+                        },
+                        {
+                            "selectionId": "432",
+                            "selectionContent": "Ease of learning",
+                            "recommendedProgrammingLanguage": "Python"
+                        }
+                    ]
+                },
+                {
+                    "selectionId": "44",
+                    "selectionContent": "Email design",
+                    "recommendedProgrammingLanguage": "HTML5"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CanIMakeIT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="loginAndRegister.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/canimakeit/index.html">Home</a></li>
+            <li><a href="/canimakeit/articles.html">Articles</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Contact">Contact</a></li>
+
+        </ul>
+    </nav>
+
+
+    <form id="loginForm" method="post" action="">
+        <div class="message"><?php if($message!="") { echo $message; } ?></div>
+        <table class="Table">
+            <tr class="tableheader">
+                <td>
+                    <p>Enter Your Login Details</p>
+                </td>
+            </tr>
+            <tr class="tablerow">
+                <td><input type="text" name="userName" placeholder="User Name" class="text-input"></td>
+            </tr>
+            <tr class="tablerow">
+                <td><input type="password" name="password" placeholder="Password" class="text-input"></td>
+            </tr>
+            <tr class="tablerow">
+                <td><input type="submit" id="loginbtn" value="Log in" class="btnSubmit" onclick=""></td>
+            </tr>
+            <tr class="tablerow">
+                <td>
+                    <p>Not registered yet? <a href="/canimakeit/register.html">Sign up now</a></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+
+</html>

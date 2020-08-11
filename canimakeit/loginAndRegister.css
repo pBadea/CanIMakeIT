@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+
+}
+nav{
+    position: relative;
+}
+.Form{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Table {
+	border: #95bee6 1px solid;
+    border-radius: 4px;
+    text-align:center;
+    border:0px;
+    width:100%;
+}
+.tableheader {
+    font-size: 24px;
+}
+.tableheader td {
+    padding: 20px;
+}
+.tablerow td{
+    text-align:center;
+}
+.tablerow a,p{
+    color: white;
+}
+.message {
+    color: white;
+    font-weight: bold;
+    text-align: center; 
+    width: 100%;
+}
+.text-input {
+	border: #CCC 1px solid;
+    padding: 10px 20px;
+
+}
+.btnSubmit {
+	padding: 10px 20px;
+    background: rgba(237, 125, 38, 1);
+    border: #d1e8ff 1px solid;
+    color: #FFF;
+}
